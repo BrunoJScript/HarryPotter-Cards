@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+body{
+    background-image: url(Img/Design\ sem\ nome\(2\).png);
+    background-repeat: no-repeat;
+   
+    
+}
+.cabecalho{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cabecalho h1{
+    font-family: "Merienda", cursive;
+    font-weight: 900;
+    color:#857661;
+    font-size: 65px;
+    letter-spacing: 20px; 
+
+}
+
+.personagens-slider{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px    
+}
+
+.lista-personagens{
+    
+    width: 330px;
+    height: 520px;
+    position: relative;
+}
+
+.btn-seta{
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    cursor:pointer;
+    justify-content: center;
+    transition:background-color 0.2s easy-in-out;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+
+    
+}
+.btn-voltar{
+    transform: rotate(180deg);
+    
+}
+
+.btn-seta:hover{
+     background-color: #0d3548; 
+}    
+
+.cartao{
+    opacity:0;
+    
+    height: 100%;
+    position: absolute;
+    padding: 12px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cartao{
+    opacity:0;
+    
+    height: 100%;
+    position: absolute;
+    padding: 12px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cartao.selecionado{
+    opacity: 1;
+    z-index:1;
+   
+}
+
+.cartao .imagem-personagem{
+    width: 100%;
+    max-height: 280px;
+}
+.cartao .nome{
+    background-color: rgba(138, 29, 29, 0.8);
+    padding: 8px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ffffff;
+    font-size:16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+.cartao .descricao{
+
+    background-color: rgba(138, 29, 29, 0.8);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    font-size: 5px;
+    color: #ffffff;
+    padding: 12px;
+}
+.cartao .descricao .titulo{
+    background-color: #333333;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+.cartao .descricao .texto{
+    font-size: 15px;
+    padding: 5px;
+    text-align: justify;
+    max-height: 110px;
+    overflow-y: auto;
+}
+
+.cartao.fundo-1{
+    background:url(Img/Design\ 1.png)
+    no-repeat;
+ } 
+ 
+ .cartao.fundo-2{
+    background:url(Img/Design\ 2.png)
+    no-repeat;
+}
+.cartao.fundo-3{
+    background:url(Img/Design\ 3.png)
+    no-repeat;
+}
+.cartao.fundo-4{
+    background:url(Img/Design\ 4.png)
+    no-repeat;
+}
+.cartao.fundo-5{
+    background:url(Img/Design\ 5.png)
+    no-repeat;
+}
+.cartao.fundo-6{
+    background:url(Img/Design\ 6.png)
+    no-repeat;
+}
+.cartao.fundo-7{
+    background:url(Img/Design\ 7.png)
+    no-repeat;
+}
+.cartao.fundo-8{
+    background:url(Img/Design\ 8.png)
+    no-repeat;
+}
+.cartao.fundo-9{
+    background:url(Img/Design\ 4.png)
+    no-repeat;
+}
+
+
+
